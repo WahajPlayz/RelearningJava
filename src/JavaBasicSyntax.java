@@ -12,6 +12,16 @@ public class JavaBasicSyntax {
         points = 100;   // Assignment
         int x = -69;    // Initialization ( Declaration + Assignment of Value )
 
+        int health;
+        health = 200;
+        int damage = 100;
+
+        int heathNow;
+        heathNow = health - damage;
+
+        System.out.println("Your Health was at " + health);
+        System.out.println("Your Health after you damage is now at " + heathNow);
+
         // Every Instruction/Line ends with a semicolon ;
         // int y = 42
 
